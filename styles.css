@@ -1,0 +1,62 @@
+/* Place your CSS styles in this file */
+
+
+body {
+    background-color: #171736;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: normal;
+    color: aliceblue;
+}
+h3 {
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: normal;
+    color: rgba(240, 248, 255, 0.420);
+    margin-bottom: 2%;
+}
+.container, .btncontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container div {
+    max-height: 300px;
+    max-width: 300px;
+    margin: 7%;
+}
+.container a, img {
+    max-width: 300px;
+}
+.btncontainer button {
+    width: 100px;
+    height: 50px;
+    margin: 5%;
+    background-color: #e60073;
+    font-size: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btncontainer button:hover { 
+    box-shadow: 0 4px 7px rgb(160, 109, 109);
+}
+.btncontainer a {
+    margin: 5%;
+}
+#surreal {
+    margin: 0;
+    background-color: #e60073;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Potta One', cursive;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#surreal:hover { 
+    box-shadow: 0 3px 12px 0 #ab6286f7;
+}
